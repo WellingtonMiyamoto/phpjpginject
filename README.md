@@ -1,7 +1,7 @@
 # phpjpginject
-Ferramenta com propósito de injetar shells em php em arquivos de imagem afim de burlar sistemas de segurança.
+Ferramenta com propósito de injetar shells em php em arquivos de imagem afim de burlar sistemas de verificação de arquivos de upload em aplicações web.
 
-Atenção, não me responsabiliso por usos indevidos desta ferramenta por terceiros, nem indico, toda e qualquer responsabilidade
+Atenção: Não me responsabiliso por usos indevidos desta ferramenta por terceiros, nem indico, toda e qualquer responsabilidade
 de qualquer tipo de utilização ilegal da mesma é de total responsabilidade de quem está a utilizando para este propósito.
 
 Compile com : cc -o phpjpginject phpjpginject.c
