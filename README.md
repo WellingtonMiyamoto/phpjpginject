@@ -7,4 +7,5 @@ de qualquer tipo de utilização ilegal da mesma é de total responsabilidade de
 Compile com : cc -o phpjpginject phpjpginject.c
 
 
-Use conforme a seguinte sintaxe : ./phpjpginject imagem.jpg shell.jpg qualquernome.jpg.php
+Use conforme a seguinte sintaxe : ./phpjpginject imagem.jpg shell.php qualquernome.jpg.php
+
