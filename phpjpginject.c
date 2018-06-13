@@ -39,14 +39,9 @@ SOFTWARE.
 #define ENDREAD "leitura de %s finalizada! (%i bytes)\n"
 #define MAXJPGKEY 103
 
-void banner(void){
-char ban[] ={"---------------------------------------------------------------------\n. phpjpginject.c tool : v0.2\n. Bug(s) corrigidos : Correção de bytes nulos após a escrita de jpgkey\n. Data da finalização do script : 30/05/2018\n.\n. Reportar bugs a : wellingtonhenrique3279@gmail.com\n. Blog : nopshackerspace.blogspot.com\n---------------------------------------------------------------------\n"};
-printf("%s",ban);
-}
-
 int main(int argc, char *argv[]){
 unsigned int jpgkey[MAXJPGKEY];
-//banner();
+
 FILE *jpg; FILE *php; FILE *shell;
 unsigned int i,jpgi,phpcodei;
 unsigned char ch;
